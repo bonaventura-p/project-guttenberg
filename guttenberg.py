@@ -24,7 +24,7 @@ try:
     byte = f.read(1)
     while byte != "":
         # Do stuff with byte
-    byte = f.read(1)
+    	  byte = f.read(1)
 finally:
    		f.close()
 
